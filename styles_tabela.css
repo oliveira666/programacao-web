@@ -1,0 +1,43 @@
+/* table, th, td {
+    border: 1px solid black;
+} */
+
+/* table, th td {
+    border: 1px solid black;
+    border-spacing: 10px;
+} */
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse
+}
+
+th, td {
+    padding: 5px;
+    background-color: rgb(145, 158, 232);
+}
+th {
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+    font-size: 24px;
+}
+
+ol {
+    list-style-type: lower-greek;
+    font-size: 24px;
+}
+
+.listas-container {
+    background-color: royalblue;
+    border: solid;
+    display: flex;
+    justify-content: wrap-around;
+    gap: 20px; 
+}
+
+body {
+    background-color: grey;
+}
