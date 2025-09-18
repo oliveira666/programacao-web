@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body> 
     <?php
-    $nome = $_GET["nome"];
-    echo "O nome enviado via get foi: " . $nome;
+    if (isset($_GET['nome']) ) {
+        $nome = $_GET['nome'];  
+        echo "O nome foi enviado via GET foi:" . $nome;
+    }
     ?>
-    <?php$nome = $_POST["nome"];
-    echo "O nome enviado via post foi: " . $nome;  
+    <?php
+    if (isset($_POST['nome']) ) { 
+    $nome = $_POST['nome'];
+    echo "O nome enviado via post foi: " . $nome;
+    }  
     ?>
 </body>
 </html>
