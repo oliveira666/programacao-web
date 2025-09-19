@@ -37,6 +37,14 @@
             echo '<br> <br>';
             echo "number_format com separadores: " . number_format(num: 1234567.89123, decimals: 2, decimal_separator: ",", thousands_separator: ".");
             echo '<br> <br>';
+            echo "PRECEDÊNCIA <br>"
+            echo "() => ** => / * % => + - <br>";
+            echo '<br> <br>'
+            
+            echo "STRING <br>";
+            echo "Eu sou uma string <br>";
+            echo '<br>';
+
         ?>
     </body>
 </html>
