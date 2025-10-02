@@ -1,0 +1,38 @@
+h3{
+    background-color: blue;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4{
+    background-color: blueviolet;
+}
+
+#idH5{
+    background-color: yellow;
+}
+
+.classH5{
+    background-color: aqua;
+}
+
+#novoh4{
+    background-color: orange;
+    color: white;
+}
+
+.diferente{
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    color: white;
+}
+
+p{
+    background-color: mediumblue;
+    color: white;
+    font-weight: bold;
+}
+
+.classH5{
+    background-color: aqua;
+}
