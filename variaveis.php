@@ -84,4 +84,38 @@
     echo "numero 20 <br>";
     $numero = 20;
 
-    
+    echo '<br>' . $numero;
+    $numero -= 5;
+    echo '<br>' . $numero;
+    $numero += 5;
+    echo '<br>' . $numero;
+    $numero *= 10;
+    echo '<br>' . $numero;
+    $numero /= 20;
+    echo '<br>' . $numero;
+    $numero **= 2;
+    echo '<br>' . $numero;
+    $numero .= 4;
+    echo '<br>' . $numero;
+
+    $texto = 'Esse é um texto';
+    echo '<br>' . $texto;
+    $texto = $texto . ' qualquer';
+    echo '<br>' . $texto;
+    $texto .= ' de verdade!';
+    echo '<br>' . $texto;
+
+    echo "Constantes";
+    echo "<br>";
+    define('TAXA_DE_JUROS', value: 5.9);
+    echo TAXA_DE_JUROS;
+
+    const NOVA_TAXA = 2.5;
+    echo "<br>" . NOVA_TAXA;
+
+    $valorVariavel = 2.8;
+    define('NOVISSIMA_TAXA', $valorVariavel);
+    echo "<br>" . NOVISSIMA_TAXA;
+
+    const NOVISSIMA_TAXA2 = 2.8 + 1.2;
+    echo "<br>" . NOVISSIMA_TAXA2;
