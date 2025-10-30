@@ -3,22 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Sistema</title>
     <link rel="stylesheet" href="pagina.css">
 </head>
 <body>
-    <form action="" method="get">
-        <label for="lblLogin">Login:</label>    
-        <input type="text"  name="userLogin" id="userLogn">
-        <br>
-        <label for="lblPassword">Password:</label>
-        <input type="password" name="userPassword" id="userPassword">
-        <br>
-        <input type="submit" name="cmdEnviaLogin" value="Enviar">
-        <button type="reset">Limpar</button>
+  <form action="" method="get">
+    <div class="divLogin">
+  <label for="userLogin">Login:</label>
+  <input type="text" name="userLogin" id="userLogin">
 
-        
-    </form>
+  <label for="userPassword">Password:</label>
+  <input type="password" name="userPassword" id="userPassword">
+
+  <div class="button-row">
+    <input type="submit" name="cmdEnviaLogin" value="Enviar">
+    <button type="reset">Limpar</button>
+  </div>
+</div>
+
+
+  </form>
+</body>
+
     
     <?php
     //!-- Valida Login --!

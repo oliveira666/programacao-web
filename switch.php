@@ -80,13 +80,13 @@
             }
         }
         ?>
-    <form action="" method="post">
+    <form action="#" method="post">
         <br>
         <label for="lblCalculadora">Calculadora:</label><br>
         <label for="lblNum">Número 1</label><br>
         <input type="number" name="num1" id="num1"><br>
         <label for="lblNum">Operação</label><br>
-        <input type="texto" name="operador" id="num1"><br>
+        <input type="text" name="operador" id="operador"><br>
         <label for="lblNum">Número 2</label><br>
         <input type="number" name="num2" id="num2"><br>
 

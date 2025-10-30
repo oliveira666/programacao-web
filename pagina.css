@@ -1,5 +1,31 @@
-body {  
-    background-color: rgb(8, 185, 177);
-    text-align: center;
-
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #817c7c;
 }
+
+.divLogin {
+  display: grid;
+  grid-template-columns: 100px 1fr; /* labels + inputs */
+  gap: 10px 10px;
+  width: 320px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.divLogin label {
+  text-align: right;
+}
+
+/* a linha dos botões ocupa as 2 colunas */
+.button-row {
+  grid-column: span 2;
+  display: flex;
+  justify-content: space-between; /* separa os dois botões */
+}
+
+
