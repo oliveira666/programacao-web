@@ -67,6 +67,11 @@
             return "Olá, meu nome é $this->nome e tenho $this->idade anos.";
         }
     }
+    echo "<br>";
+        $pessoa = new   Pessoa();
+        $pessoa->nome = "João";
+        $pessoa->idade = 20;
+        echo $pessoa->apresentar();
     
     ?>
     
