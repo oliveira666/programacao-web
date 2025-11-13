@@ -60,17 +60,29 @@
     } while ($i < VALOR_LIMITE);
     
     class Pessoa {
-        public $nome;
-        public $idade;
+        private $nome;
+        private $idade;
         
+        public function getNome() {
+            return $this->nome;
+        }
+        public function SetNome() {
+            $this->nome = $nome;
+        }
+        public function getIdade() {
+            return $this->idade;
+        }
+        public function setIdade() {
+            $this->idade = $idade;
+        }
         public function apresentar() {
-            return "Olá, meu nome é $this->nome e tenho $this->idade anos.";
+            return "Olá, meu nome é " .$this->getNome . " e tenho " .$this->getIdade . "anos.";
         }
     }
     echo "<br>";
-        $pessoa = new   Pessoa();
-        $pessoa->nome = "João";
-        $pessoa->idade = 20;
+        $pessoa = new Pessoa();
+        $pessoa->setNome = "João";
+        $pessoa->setIdade = 20;
         echo $pessoa->apresentar();
     
     ?>
